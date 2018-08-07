@@ -1,9 +1,15 @@
+/*eslint no-console: ["error", { allow: ["warn", "error", "log"] }] */
+/*eslint-env browser*/
+/*jslint vars: true, plusplus: true, devel: true */
+
 ///////////////////////////////////////
 // Lecture: Hoisting
 
+function calculateAge(year) {
+    console.log(2018 - year);
+}
 
-
-
+console.log(calculateAge(1990));
 
 
 
